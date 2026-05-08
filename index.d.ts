@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,17 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { float64ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute the range of absolute values of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
+* Computes the range of absolute values of a one-dimensional double-precision floating-point ndarray, ignoring NaN values.
 *
-* @module @stdlib/stats-base-ndarray-dnanrangeabs
+* @param arrays - array-like object containing an input ndarray
+* @returns range of absolute values
 *
 * @example
 * var Float64Array = require( '@stdlib/array-float64' );
 * var ndarray = require( '@stdlib/ndarray-base-ctor' );
-* var dnanrangeabs = require( '@stdlib/stats-base-ndarray-dnanrangeabs' );
 *
 * var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 * var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
@@ -34,12 +38,9 @@
 * var v = dnanrangeabs( [ x ] );
 * // returns 1.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function dnanrangeabs( arrays: [ float64ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = dnanrangeabs;
