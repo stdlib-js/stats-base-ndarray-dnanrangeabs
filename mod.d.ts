@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,21 +16,14 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var numelDimension = require( '@stdlib/ndarray-base-numel-dimension' );
-var getStride = require( '@stdlib/ndarray-base-stride' );
-var getOffset = require( '@stdlib/ndarray-base-offset' );
-var getData = require( '@stdlib/ndarray-base-data-buffer' );
-var strided = require( '@stdlib/stats-strided-dnanrangeabs' ).ndarray;
-
-
-// MAIN //
+import { float64ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Computes the range of absolute values of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
+* Computes the range of absolute values of a one-dimensional double-precision floating-point ndarray, ignoring NaN values.
 *
 * ## Notes
 *
@@ -38,8 +31,8 @@ var strided = require( '@stdlib/stats-strided-dnanrangeabs' ).ndarray;
 *
 *     -   a one-dimensional input ndarray.
 *
-* @param {ArrayLikeObject<Object>} arrays - array-like object containing ndarrays
-* @returns {number} range
+* @param arrays - array-like object containing ndarrays
+* @returns range of absolute values
 *
 * @example
 * var Float64Vector = require( '@stdlib/ndarray-vector-float64' );
@@ -49,12 +42,9 @@ var strided = require( '@stdlib/stats-strided-dnanrangeabs' ).ndarray;
 * var v = dnanrangeabs( [ x ] );
 * // returns 1.0
 */
-function dnanrangeabs( arrays ) {
-	var x = arrays[ 0 ];
-	return strided( numelDimension( x, 0 ), getData( x ), getStride( x, 0 ), getOffset( x ) ); // eslint-disable-line max-len
-}
+declare function dnanrangeabs( arrays: [ float64ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = dnanrangeabs;
+export = dnanrangeabs;
