@@ -50,7 +50,7 @@ The [**range**][range] of absolute values is defined as the difference between t
 ## Usage
 
 ```javascript
-import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@deno/mod.js';
+import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@v0.0.0-deno/mod.js';
 ```
 
 #### dnanrangeabs( arrays )
@@ -95,7 +95,7 @@ import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@d
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-by@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
-import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@deno/mod.js';
+import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@v0.0.0-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
