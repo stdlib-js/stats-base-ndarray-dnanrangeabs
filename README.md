@@ -50,6 +50,11 @@ The [**range**][range] of absolute values is defined as the difference between t
 ## Usage
 
 ```javascript
+import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-dnanrangeabs/tags). For example,
+
+```javascript
 import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@v0.0.0-esm/index.mjs';
 ```
 
@@ -100,7 +105,7 @@ import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@e
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import fillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fill-by@esm/index.mjs';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index.mjs';
-import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@v0.0.0-esm/index.mjs';
+import dnanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrangeabs@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
