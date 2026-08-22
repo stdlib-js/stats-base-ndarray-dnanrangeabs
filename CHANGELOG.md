@@ -1,0 +1,56 @@
+# CHANGELOG
+
+> Package changelog.
+
+<section class="release" id="unreleased">
+
+## Unreleased (2026-08-22)
+
+<section class="features">
+
+### Features
+
+-   [`b23c637`](https://github.com/stdlib-js/stdlib/commit/b23c6379b1246ede2ef56276e41a8adf3e286189) - add C implementation for `stats/base/ndarray/dnanrangeabs` [(#14475)](https://github.com/stdlib-js/stdlib/pull/14475)
+-   [`2c7da1c`](https://github.com/stdlib-js/stdlib/commit/2c7da1c4a81b3856be1724146b68ce8b4fb12f30) - add `stats/base/ndarray/dnanrangeabs` [(#11346)](https://github.com/stdlib-js/stdlib/pull/11346)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b23c637`](https://github.com/stdlib-js/stdlib/commit/b23c6379b1246ede2ef56276e41a8adf3e286189) - **feat:** add C implementation for `stats/base/ndarray/dnanrangeabs` [(#14475)](https://github.com/stdlib-js/stdlib/pull/14475) _(by Ujjwal Verma)_
+-   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
+-   [`46ec186`](https://github.com/stdlib-js/stdlib/commit/46ec186fcbd6df60f64a58f504b661a63bc5cd47) - **docs:** update description _(by Athan Reines)_
+-   [`efb8640`](https://github.com/stdlib-js/stdlib/commit/efb8640d97dfffd8897418dcea2e4df1481ca6fc) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`2c7da1c`](https://github.com/stdlib-js/stdlib/commit/2c7da1c4a81b3856be1724146b68ce8b4fb12f30) - **feat:** add `stats/base/ndarray/dnanrangeabs` [(#11346)](https://github.com/stdlib-js/stdlib/pull/11346) _(by Sachin Pangal)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Sachin Pangal
+-   Ujjwal Verma
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
